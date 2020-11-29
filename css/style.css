@@ -1,0 +1,48 @@
+.sidebar{
+	height: 100%;
+  width: 20%;
+  position: fixed;
+  background-color: #F3F9FE;
+  overflow-x: hidden;
+  padding-top: 1%;
+}
+.sidebar a{
+  color: #CCA88E;
+  font-family: "OCR-A BT";
+  padding: 2% 10%;
+  text-decoration: none;
+  font-size: 25px;
+  display: block; 
+}
+.sidebar a:hover {
+  color: #2274A5;
+  font-size: 30px;
+  transition: color 0.2s ease, font-size 0.2s;
+}
+.sidebar-bottom a {
+  color: #2274A5;
+}
+.sidebar-bottom a:hover {
+  color: #CCA88E;
+  font-size: 25px;
+}
+.sidebar-bottom{
+  margin: 80% auto 10% auto;
+}
+.logo{
+	max-width: 90%;
+	display: block;
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+}
+.separator{
+	max-width: 70%;
+	display: block;
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+}
+/*#F3F9FE - #CCA88E - #A9DFF2 - #82BDD6 - #2274A5
+  #FAFAFA - #FFEFE0 - #FED9CA - #C5C5C5 - #7D7D7D
+  #F4F7BE - #EFD09E - #D4AA7D - #6CD4FF - #30BCED*/
