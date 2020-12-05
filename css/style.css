@@ -1,3 +1,31 @@
+.content{
+  height: 100%;
+  width: 80%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: fixed;
+  left: 20%;
+}
+.backimg{
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-right: -60%;
+}
+.main{
+  height: 100%;
+  float: left;
+  width: 45%;
+  position: relative;
+  background-color: #FFFAF3;
+  padding: 2% 6%;
+  font-family: "Lato";
+  font-size: 20px;
+  color: #2c75ff;
+  font-weight: bold;
+  z-index: 10;
+}
 .sidebar{
 	height: 100%;
   width: 20%;
@@ -6,6 +34,18 @@
   overflow-x: hidden;
   padding-top: 1%;
 }
+.main a{
+  color: #329765;
+  text-decoration: none;
+  font-size: 25px;
+  display: block; 
+  min-height:30px;
+}
+.main a:hover {
+  color: #2c75ff;
+  font-size: 30px;
+  transition: color 0.2s ease, font-size 0.2s;
+}
 .sidebar a{
   color: #CCA88E;
   font-family: "OCR-A BT";
@@ -13,6 +53,7 @@
   text-decoration: none;
   font-size: 25px;
   display: block; 
+  min-height:30px;
 }
 .sidebar a:hover {
   color: #2274A5;
@@ -42,6 +83,13 @@
   vertical-align: middle;
   height: auto;
   margin: auto;
+}
+.gallery img{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  margin: 1%;
 }
 /*#F3F9FE - #CCA88E - #A9DFF2 - #82BDD6 - #2274A5
   #FAFAFA - #FFEFE0 - #FED9CA - #C5C5C5 - #7D7D7D
